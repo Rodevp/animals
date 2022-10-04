@@ -9,18 +9,27 @@ export const PopUpMenuContainer = styled.div`
   height: 90px;
   width: 190px;
   border-radius: 6px;
-  color: #eef2e6;
   font-weight: 400;
   font-size: 16px;
 `;
 
-export const LinkStyles = styled.p`
+export const LinkStyles = styled.button`
   display: flex;
   margin: 0;
+  background-color: transparent;
+  color: #eef2e6;
+  border: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: none;
+  }
 `;
 
 export const IconMenuAlignment = styled.i`
   margin: 0 4px;
   display: flex;
   align-items: center;
+  color: #eef2e6;
 `;

@@ -12,6 +12,8 @@ export const Button = styled.button`
   max-width: 6em;
   min-width: 4rem;
   transition: all 0.3s ease;
+  border: none;
+  padding: 6px;
 
   &:hover {
     filter: brightness(90%);
