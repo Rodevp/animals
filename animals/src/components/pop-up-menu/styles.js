@@ -17,8 +17,6 @@ export const PopUpMenuContainer = styled.div`
 export const LinkStyles = styled.p`
   display: flex;
   margin: 0;
-  align-content: center;
-  align-items: center;
 `;
 
 export const IconMenuAlignment = styled.i`
