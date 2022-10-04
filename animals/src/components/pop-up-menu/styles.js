@@ -20,9 +20,7 @@ export const LinkStyles = styled.button`
   color: #eef2e6;
   border: none;
 
-  &:hover,
-  &:focus,
-  &:active {
+  &:hover {
     border: none;
   }
 `;
