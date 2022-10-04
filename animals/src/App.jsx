@@ -2,7 +2,7 @@ import './App.css';
 import { IoHome } from 'react-icons/io5';
 import styled from 'styled-components';
 
-import { ButtonComponent } from './components';
+import { ButtonComponent, PopupMenu } from './components';
 
 export const Title = styled.h1`
   font-size: 6em;
@@ -13,10 +13,8 @@ function App() {
   return (
     <>
       <Title>Hello, World!</Title>
-      <ButtonComponent
-        value='Home'
-        Icon={<IoHome />}
-      />
+      <ButtonComponent value='Home' Icon={<IoHome />} />
+      <PopupMenu />
     </>
   );
 }
