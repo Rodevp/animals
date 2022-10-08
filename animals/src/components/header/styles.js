@@ -2,13 +2,14 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
   width: 100%;
-  height: auto;
+  height: 60px;
   padding: 12px;
   background-color: #1c6758;
   color: #eef2e6;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 480px;
 `;
 
 export const HeaderTitle = styled.p`
@@ -19,7 +20,6 @@ export const HeaderTitle = styled.p`
 export const IconHeaderAlignment = styled.i`
   margin: 0 4px;
   display: flex;
-  height: 32px;
   align-items: center;
   color: #eef2e6;
 `;

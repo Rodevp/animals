@@ -1,6 +1,7 @@
 import { IoPaw, IoPerson } from 'react-icons/io5';
 import { HeaderContainer, HeaderTitle, IconHeaderAlignment } from './styles.js';
-const Header = () => {
+
+export const HeaderComponent = () => {
   return (
     <HeaderContainer>
       <IconHeaderAlignment>
@@ -13,5 +14,3 @@ const Header = () => {
     </HeaderContainer>
   );
 };
-
-export default Header;
