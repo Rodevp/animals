@@ -14,7 +14,6 @@ function App() {
     <>
       <Title>Hello, World!</Title>
       <ButtonComponent value='Home' Icon={<IoHome />} />
-      <PopupMenu />
     </>
   );
 }
