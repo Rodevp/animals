@@ -20,6 +20,7 @@ export const HeaderTitle = styled.p`
 export const IconHeaderAlignment = styled.i`
   margin: 0 4px;
   display: flex;
+  font-size: 30px;
   align-items: center;
   color: #eef2e6;
 `;
