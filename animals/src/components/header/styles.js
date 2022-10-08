@@ -16,7 +16,7 @@ export const HeaderTitle = styled.p`
   font-size: 32px;
 `;
 
-export const IconMenuAlignment = styled.i`
+export const IconHeaderAlignment = styled.i`
   margin: 0 4px;
   display: flex;
   height: 32px;
