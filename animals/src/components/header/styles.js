@@ -10,6 +10,7 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 480px;
+  position: relative;
 `;
 
 export const HeaderTitle = styled.p`
