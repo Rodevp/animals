@@ -11,6 +11,10 @@ export const PopUpMenuContainer = styled.div`
   border-radius: 6px;
   font-weight: 400;
   font-size: 16px;
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+  transform: translateX(-100%);
 `;
 
 export const LinkStyles = styled.button`
