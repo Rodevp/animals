@@ -10,11 +10,10 @@ export const PopUpMenuContainer = styled.div`
   width: 190px;
   border-radius: 6px;
   font-weight: 400;
-  font-size: 16px;
   position: absolute;
-  bottom: 0%;
-  right: 10%;
-  transform: translateX(-100%);
+  bottom: -100%;
+  right: 2%;
+  /* transform: translateX(-100%); */
 `;
 
 export const LinkStyles = styled.button`
@@ -23,6 +22,7 @@ export const LinkStyles = styled.button`
   background-color: transparent;
   color: #eef2e6;
   border: none;
+  font-size: 16px;
 
   &:hover {
     border: none;
@@ -34,4 +34,5 @@ export const IconMenuAlignment = styled.i`
   display: flex;
   align-items: center;
   color: #eef2e6;
+  font-size: 16px;
 `;
