@@ -7,8 +7,6 @@ export const HomePage = () => {
       <HeaderComponent />
 
       {/* Puppy Component */}
-
-      <h1>HomePage</h1>
     </>
   );
 };
