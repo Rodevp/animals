@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
-export const CardHeaderContainer = styled.div`
+export const CardContainer = styled.div`
   margin: 40px auto;
 `;

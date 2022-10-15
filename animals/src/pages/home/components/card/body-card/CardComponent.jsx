@@ -1,5 +1,7 @@
+import { CardContainer } from './styles';
+
 const CardComponent = () => {
-  return <div>CardComponent</div>;
+  return <CardContainer></CardContainer>;
 };
 
 export default CardComponent;
