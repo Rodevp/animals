@@ -11,8 +11,8 @@ export const PopUpMenuContainer = styled.div`
   border-radius: 6px;
   font-weight: 400;
   position: absolute;
-  bottom: -100%;
-  right: 2%;
+  bottom: -150%;
+  right: 1%;
   /* transform: translateX(-100%); */
 `;
 
