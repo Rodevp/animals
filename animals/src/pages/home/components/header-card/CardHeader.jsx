@@ -1,12 +1,10 @@
 import { CardHeaderContainer, PetName, PetProps } from './styles';
 
-const CardHeader = () => {
+export function CardHeader() {
   return (
     <CardHeaderContainer>
       <PetName>Panchito</PetName>
       <PetProps>3 meses</PetProps>
     </CardHeaderContainer>
   );
-};
-
-export default CardHeader;
+}
