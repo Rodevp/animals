@@ -1,5 +1,5 @@
 import { CardContainer } from './styles';
-import { CardHeader } from '../header-card/CardHeader';
+import { CardHeader } from '../card/header-card/CardHeader';
 
 const CardComponent = () => {
   return (
