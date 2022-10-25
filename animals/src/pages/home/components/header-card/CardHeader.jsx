@@ -5,6 +5,7 @@ export function CardHeader() {
     <CardHeaderContainer>
       <PetName>Panchito</PetName>
       <PetProps>3 meses</PetProps>
+      {/* Acá falta agregar los icons con alguna suerte de conditional rendering */}
     </CardHeaderContainer>
   );
 }
