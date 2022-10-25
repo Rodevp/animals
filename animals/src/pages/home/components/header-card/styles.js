@@ -19,5 +19,5 @@ export const PetProps = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace; // CAMBIAR POR RALEWAY
+  font-family: 'Courier New', Courier, monospace; // CAMBIAR POR MONTSERRAT
 `;
