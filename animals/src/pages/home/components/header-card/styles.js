@@ -8,6 +8,7 @@ export const CardHeaderContainer = styled.div`
   justify-content: space-between;
   text-align: center;
   padding: 15px;
+  border-radius: 6px;
 `;
 
 export const PetName = styled.p`
