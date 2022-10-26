@@ -1004,7 +1004,7 @@ export const HomePage = () => {
       "owner": "Kelly,Marder",
       "phoneNumber": "+57-311-98201046"
     }
-  ]
+  ].json();
 
   return (
     <>
