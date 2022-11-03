@@ -16,7 +16,8 @@ export const PetName = styled.p`
   font-size: 36px;
 `;
 
-export const PetProps = styled.div`
+export const PetProps = styled.i`
   color: #fff;
-  font-size: 30px;
+  font-size: 24px;
+  padding-top: 7px;
 `;
