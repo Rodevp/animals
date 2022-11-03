@@ -9,7 +9,6 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 480px;
   position: relative;
 `;
 
