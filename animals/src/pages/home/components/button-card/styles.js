@@ -20,6 +20,7 @@ export const AdoptButtonContainer = styled.button`
 
 export const IconAlignment = styled.i`
   color: #fff;
+  padding-top: 4px;
   margin-left: 16px;
   font-size: 20px;
 `;
