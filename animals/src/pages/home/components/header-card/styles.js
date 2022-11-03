@@ -19,5 +19,4 @@ export const PetName = styled.p`
 export const PetProps = styled.div`
   color: #fff;
   font-size: 30px;
-  font-family: 'Courier New', Courier, monospace; // CAMBIAR POR MONTSERRAT
 `;

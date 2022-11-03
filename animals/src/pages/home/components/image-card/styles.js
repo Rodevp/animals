@@ -27,7 +27,7 @@ export const ImageDescription = styled.p`
   height: 88px;
   border-radius: 6px;
   margin: 20px 0;
-  font-family: 'Courier New', Courier, monospace; // CAMBIAR POR MONTSERRAT
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 20px 8px;
 `;
