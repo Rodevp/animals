@@ -15,6 +15,7 @@ export const AdoptButtonContainer = styled.button`
   outline: none;
   border-radius: 6px;
   margin: 20px auto;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const IconAlignment = styled.i`
