@@ -27,19 +27,22 @@ export const PuppyfyLoginButton = styled.button`
 export const IconAlignment = styled.i`
   color: #fff;
   padding-top: 4px;
-  margin-left: 16px;
+  margin-left: 12px;
   font-size: 18px;
 `;
 
 export const LoginWithGoogle = styled.button`
   border: none;
   outline: none;
+  background-color: transparent;
   color: #fff;
   height: 40px;
+  width: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 18px;
-  margin-top: 100px;
+  margin-inline: auto;
+  margin-top: 30px;
 `;
