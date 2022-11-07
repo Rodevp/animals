@@ -6,6 +6,7 @@ export const LoginContainer = styled.div`
   height: 100vh;
   min-width: 100vw;
   min-height: 100vh;
+  padding: 20px 0;
   background-image: url(${CatImg});
   background-size: cover;
   background-repeat: no-repeat;
