@@ -9,4 +9,5 @@ export const LoginContainer = styled.div`
   background-image: url(${CatImg});
   background-size: cover;
   background-repeat: no-repeat;
+  filter: brightness(90%);
 `;
