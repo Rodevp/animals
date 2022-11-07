@@ -41,7 +41,7 @@ export const InputBox = styled.label`
 
 export const Labels = styled.span`
   color: #fff;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
 `;
 
@@ -49,6 +49,6 @@ export const FormInputs = styled.input.attrs({ type: 'text' })`
   border: none;
   outline: none;
   background-color: transparent;
-  border-bottom: 2px solid #fff;
+  border-bottom: 1px solid #fff;
   color: #fff;
 `;
