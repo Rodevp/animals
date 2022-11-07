@@ -11,8 +11,9 @@ export const LoginHeaderContainer = styled.div`
 `;
 
 export const HeaderTitle = styled.p`
-  font-size: 70px;
+  font-size: 60px;
   text-align: center;
+  font-weight: 400;
 `;
 
 export const AppDescription = styled.p`
