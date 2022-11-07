@@ -5,6 +5,7 @@ import {
   LoginButtons,
   Labels,
   FormInputs,
+  InputBox,
 } from './styles';
 
 export function LoginForm() {
@@ -16,15 +17,15 @@ export function LoginForm() {
           <LoginButtons>login</LoginButtons>
         </FormButtonContainer>
 
-        <label htmlFor=''>
+        <InputBox>
           <Labels>correo electrónico</Labels>
           <FormInputs />
-        </label>
+        </InputBox>
 
-        <label htmlFor=''>
+        <InputBox>
           <Labels>contraseña</Labels>
           <FormInputs />
-        </label>
+        </InputBox>
       </LoginFormContainer>
     </LoginBodyContainer>
   );
