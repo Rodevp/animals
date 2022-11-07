@@ -1,4 +1,4 @@
-import { LoginForm, LoginHeader } from './components';
+import { LoginForm, LoginHeader, LoginBtns } from './components';
 import { LoginContainer } from './styled-componts/login-bg';
 
 export function Login() {
@@ -6,6 +6,7 @@ export function Login() {
     <LoginContainer>
       <LoginHeader />
       <LoginForm />
+      <LoginBtns />
     </LoginContainer>
   );
 }
