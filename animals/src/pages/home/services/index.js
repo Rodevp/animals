@@ -1,1 +1,1 @@
-export * from './public.service';
+export * from './public.service.js';

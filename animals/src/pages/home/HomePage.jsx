@@ -1,17 +1,19 @@
-import { useEffect, useState } from 'react';
 import { HeaderComponent } from '../../components';
 import CardComponent from './components/body-card/CardComponent';
 import { useFetch } from './hooks/useFetch';
 
 export const HomePage = () => {
-  const { animalsData } = useFetch();
+  const url = 'http://localhost:8000/api/v1/puppy';
+
+  const { animalsData } = useFetch(url);
 
   return (
     <div>
       <HeaderComponent />
-      {animalsData.map((animalInfo) => {
-        return <CardComponent key={animalInfo.id} {...animalInfo} />;
-      })}
+      {animalsData.puppies &&
+        animalsData.puppies.map((animalInfo) => {
+          return <CardComponent key={animalInfo._id} {...animalInfo} />;
+        })}
     </div>
   );
 };

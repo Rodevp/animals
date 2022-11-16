@@ -1,8 +1,17 @@
-import { useState } from 'react';
-import { fetchPetsInfo } from './services';
+import { fetchPetsInfo } from '../services';
+import { useEffect, useState } from 'react';
 
-export function useFetch() {
-  const animalsData = fetchPetsInfo();
+export function useFetch(url) {
+  const [animalsData, setAnimalsData] = useState([]);
+
+  async function getPuppiesData(APIendpoint) {
+    const apiResponse = await fetchPetsInfo(APIendpoint);
+    setAnimalsData(apiResponse);
+  }
+
+  useEffect(() => {
+    getPuppiesData(url);
+  }, []);
 
   return { animalsData };
 }

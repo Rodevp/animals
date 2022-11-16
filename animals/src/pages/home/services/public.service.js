@@ -1,5 +1,5 @@
-export async function fetchPetsInfo() {
-  const res = await fetch('http://localhost:8000/api/v1/puppy');
+export async function fetchPetsInfo(url) {
+  const res = await fetch(url);
   const json = await res.json();
   return json;
 }
