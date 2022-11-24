@@ -3,13 +3,11 @@ import {
   LoginFormContainer,
   FormButtonContainer,
   LoginButtons,
-  Labels,
-  FormInputs,
-  InputBox,
   PuppyfyLoginButton,
   IconAlignment
 } from './styles';
 
+import { Input } from '../inputs'
 import { IoPaw } from 'react-icons/io5';
 
 export function LoginForm() {
@@ -21,15 +19,8 @@ export function LoginForm() {
           <LoginButtons>login</LoginButtons>
         </FormButtonContainer>
 
-        <InputBox>
-          <Labels>correo electrónico</Labels>
-          <FormInputs />
-        </InputBox>
-
-        <InputBox>
-          <Labels>contraseña</Labels>
-          <FormInputs />
-        </InputBox>
+        <Input text="correo electrónico" />
+        <Input text="contraseña" />
 
         <PuppyfyLoginButton>
         Iniciar Sesión
