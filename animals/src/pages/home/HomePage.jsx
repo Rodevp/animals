@@ -3,8 +3,8 @@ import CardComponent from './components/body-card/CardComponent';
 import { useFetch } from './hooks/useFetch';
 
 export const HomePage = () => {
+  
   const url = 'http://localhost:8000/api/v1/puppy';
-
   const { animalsData } = useFetch(url);
 
   return (
