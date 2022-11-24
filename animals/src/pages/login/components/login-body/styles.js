@@ -56,7 +56,7 @@ export const FormInputs = styled.input.attrs({ type: 'text' })`
 export const PuppyfyLoginButton = styled.button.attrs({ type: 'submit' })`
   width: 250px;
   height: 40px;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
   justify-content: center;
   align-items: center;

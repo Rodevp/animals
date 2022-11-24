@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ButtonsContainer = styled.div`
-  margin: 50px auto;
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,5 +27,4 @@ export const LoginWithGoogle = styled.button`
   font-weight: 400;
   font-size: 18px;
   margin-inline: auto;
-  margin-top: 30px;
 `;
