@@ -53,7 +53,7 @@ export const FormInputs = styled.input.attrs({ type: 'text' })`
   color: #fff;
 `;
 
-export const PuppyfyLoginButton = styled.button`
+export const PuppyfyLoginButton = styled.button.attrs({ type: 'submit' })`
   width: 250px;
   height: 40px;
   margin: 0 auto;

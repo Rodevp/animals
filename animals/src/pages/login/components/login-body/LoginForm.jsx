@@ -31,12 +31,12 @@ export function LoginForm() {
           <FormInputs />
         </InputBox>
 
-        {/* <PuppyfyLoginButton>
+        <PuppyfyLoginButton>
         Iniciar Sesión
         <IconAlignment>
           <IoPaw />
         </IconAlignment>
-      </PuppyfyLoginButton> */}
+      </PuppyfyLoginButton>
 
       </LoginFormContainer>
     </LoginBodyContainer>

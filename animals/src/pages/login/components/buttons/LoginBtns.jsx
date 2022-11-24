@@ -1,4 +1,4 @@
-import { PuppyfyLoginButton, IconAlignment, ButtonsContainer, LoginWithGoogle } from './styles';
+import { IconAlignment, ButtonsContainer, LoginWithGoogle } from './styles';
 import { FcGoogle } from 'react-icons/fc';
 
 export function LoginBtns() {
