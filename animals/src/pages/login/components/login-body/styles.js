@@ -30,4 +30,8 @@ export const LoginButtons = styled.button`
   font-size: 15px;
   height: 30px;
   background-color: transparent;
+
+  &:active, &:focus{
+    color: #968E8E;
+  }
 `;
